@@ -15,8 +15,6 @@ int main() {
         return 1;
     }
 
-    // tzset();
-    
     if (time(&now) == (time_t)-1) { 
         perror("time");
         return 1;
